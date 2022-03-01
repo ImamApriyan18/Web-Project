@@ -49,15 +49,15 @@
     font-size: 100px;
     padding-top: 90px;
 }
-#Introduction{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    color: white;
-    font-variant: inherit;
-    font-size: larger;
-    padding-bottom: 20px;
-}
+#mengapa-memilih-the-langkah-travel{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        color: white;
+        font-variant: inherit;
+        font-size: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 
 /* About card */
     /* Card transisi */
@@ -170,4 +170,20 @@
     font-family: 'Roboto Black', sans-serif;
     letter-spacing: 1px;
     color: black;
+}
+
+
+.wp-block-columns {
+    display: flex;
+    margin-bottom: 1.75em;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+
+.has-text-align-center {
+    text-align: center;
+    margin: 0px 0px 24px;
 }
