@@ -1,0 +1,492 @@
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("/img/img-6.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* Navbar */
+
+.navbar-brand img {
+    width: 180px;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+
+.navbar-nav .nav-item {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    margin-left: 40px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-top: 0px;
+}
+.navbar-toggler{
+    background-color: rgb(199, 243, 184);
+}
+
+
+
+/* Design Btn */
+.tombol {
+    text-transform: capitalize;
+    border-radius: 30px;
+}
+
+/* text-box header */
+.text-box {
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50,-50s);
+    text-align: center;
+}
+.text-box h1 {
+    font-size: 30px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+.text-box h1 span {
+    font-weight: 400;
+    font-size: 40px;
+}
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.text-box p span {
+    font-weight: 600;
+}
+
+/* body content */
+section {
+    background: linear-gradient(rgba(16, 45, 160, 0.761),rgba(19, 165, 150, 0.7));
+}
+
+.content {
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.content > h1 {
+    color:  rgb(3, 7, 70);
+    font-weight: 200;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.content > h1::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    display: block;
+    margin: auto;
+    background-color: rgb(182, 176, 168);
+    padding-top: 3px;
+}
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+
+.col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.col:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.2)
+}
+
+.col img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.col h3 {
+    text-align: left;
+    font-size: 45px;
+    font-weight: 250;
+    margin: 10px 0;
+    color: rgb(3, 7, 70);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+.col h3 span {
+    font-weight: 600;
+}
+.col p {
+    font-size: medium;
+    color: antiquewhite;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    text-align: justify;
+    margin: 25px;
+}
+
+#destination {
+    padding-bottom: 0;
+}
+#tour {
+    padding-top: 0;
+}
+
+ /* Footer */
+ .footer {
+    min-height: 40vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("/img/wisata-pulau-moyo-4.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#imam {
+display: flex;
+justify-content: space-between;
+}
+#eka {
+padding-top: 50px;
+}
+#eka h2 {
+color: white;
+padding-top: 20px;
+padding-left: 60px;
+}
+#eka p {
+color: antiquewhite;
+padding-left: 60px;
+}
+
+
+#apriyan h2 {
+display: flex;
+justify-content: end;
+padding-top: 15%;
+color: white;
+padding-right: 40px;
+}
+#apriyan .icon {
+display: flex;
+justify-content: end;
+color: white;
+padding-right: 33px;
+}
+
+#apriyan .icon .fa{
+color: #f44336;
+margin: 0 13px;
+cursor: pointer;
+font-size: 30px;
+}
+
+#apriyan .icon > .btn {
+    width: 60px;
+}
+
+#apriyan p {
+color: antiquewhite;
+display: flex;
+justify-content: end;
+}
+
+#aboutUs #dom #luv .container {
+display: flex;
+justify-content: end;
+}
+
+#aboutUs #dom #luv {
+background-image:  linear-gradient(rgba(7, 25, 100, 0.7),rgba(4,9,30,0.7))
+}
+
+#aboutUs #dom #luv h4 {
+color: rgb(240, 203, 155);
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+#eka a img {
+width: 190px;
+padding-left: 50px;
+}
+
+#dom::after {
+content: '';
+width: 100%;
+height: 1px;
+display: block;
+margin: auto;
+background-color: rgb(114, 109, 102);
+padding-top: 3px;
+}
+
+
+@media(max-width: 700px){
+    .content > h1 {
+        font-size: 40px;
+    }
+    .content > h1::after {
+        width: 80%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .col h3 {
+        font-size: 25px;
+    }
+    .col p {
+        font-size: medium;
+    }
+}
+
+/* @media (min-width: 0px){
+    .jumbotron {
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/img/img-6.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 640px;
+        margin-top: -75px;
+    }
+} */
+
+
+/* dekstop vesion */
+@media (min-width: 992px){
+
+    .navbar-nav {
+        margin-right: 20px;
+    }
+
+    .navbar-nav .nav-item {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+        margin-left: 15px;
+    }
+    .nav-item {
+        text-transform: capitalize;
+    }
+
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #36f47f;;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .navbar-brand img {
+        width: 180px;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    .text-box {
+        width: 100%;
+        color: white;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50,-50s);
+        text-align: center;
+    }
+    .text-box h1 {
+        font-size: 55px;
+        font-weight: 200;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+    .text-box h1 span {
+        font-weight: 500;
+        font-size: 60px;
+    }
+    .text-box p {
+        margin: 10px 0 40px;
+        font-size: 30px;
+        font-weight: 100;
+        color: white;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+    
+    .text-box p span {
+        font-weight: 600;
+    }
+
+    /* body content */
+    section {
+        background: linear-gradient(rgba(16, 45, 160, 0.761),rgba(19, 165, 150, 0.7));
+    }
+    
+    .content {
+        padding-top: 50px;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .content > h1 {
+        color:  rgb(3, 7, 70);
+        font-weight: 200;
+        font-size: 50px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+    
+    .content > h1::after {
+        content: '';
+        width: 100%;
+        height: 1px;
+        display: block;
+        margin: auto;
+        background-color: rgb(182, 176, 168);
+        padding-top: 3px;
+    }
+    .row {
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+    }
+    
+    
+    .col {
+        flex-basis: 31%;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        text-align: left;
+        padding: 20px 12px;
+        box-sizing: border-box;
+    }
+    
+    .col:hover {
+        box-shadow: 0 0 20px rgba(0,0,0,0.2)
+    }
+    
+    .col img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .col h3 {
+        text-align: left;
+        font-size: 45px;
+        font-weight: 250;
+        margin: 10px 0;
+        color: rgb(3, 7, 70);
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+    .col h3 span {
+        font-weight: 600;
+    }
+    .col p {
+        font-size: medium;
+        color: antiquewhite;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+        text-align: justify;
+        margin: 25px;
+    }
+    
+    #destination {
+        padding-bottom: 0;
+    }
+    #tour {
+        padding-top: 0;
+    }
+
+    /* Footer */
+    .footer {
+        min-height: 40vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("/img/wisata-pulau-moyo-4.jpg");
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    #imam {
+    display: flex;
+    justify-content: space-between;
+    }
+    #eka {
+    padding-top: 50px;
+    }
+    #eka h2 {
+    color: white;
+    padding-top: 20px;
+    padding-left: 60px;
+    }
+    #eka p {
+    color: antiquewhite;
+    padding-left: 60px;
+    }
+
+
+    #apriyan h2 {
+    display: flex;
+    justify-content: end;
+    padding-top: 15%;
+    color: white;
+    padding-right: 40px;
+    }
+    #apriyan .icon {
+    display: flex;
+    justify-content: end;
+    color: white;
+    }
+
+
+    #apriyan .icon .fa{
+        color: #f44336;
+        cursor: pointer;
+    }
+
+    #apriyan .icon > .btn {
+        width: 60px;
+    }
+
+    #apriyan p {
+    color: antiquewhite;
+    display: flex;
+    justify-content: end;
+    }
+
+    #aboutUs #dom #luv .container {
+    display: flex;
+    justify-content: end;
+    }
+
+    #aboutUs #dom #luv {
+    background-image:  linear-gradient(rgba(7, 25, 100, 0.7),rgba(4,9,30,0.7))
+    }
+
+    #aboutUs #dom #luv h4 {
+    color: rgb(240, 203, 155);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+
+    #eka a img {
+    width: 190px;
+    padding-left: 50px;
+    }
+
+    #dom::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    display: block;
+    margin: auto;
+    background-color: rgb(114, 109, 102);
+    padding-top: 3px;
+    }
+
+}
