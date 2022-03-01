@@ -1,0 +1,106 @@
+/* Navbar */
+*{margin: 0;padding: 0;
+    box-sizing: border-box;}
+    
+    .header {width: 100%;
+        background-image: linear-gradient(to right,#4cd1d1, #ffb88c);
+    }
+    
+    .navbar-brand {color: rgb(0, 0, 0) !important;
+    }
+
+    .nav-link {color: rgb(0, 0, 0) !important;}
+
+    .nav-link:hover {color: #ffffff !important;}
+
+    @media (max-width:668px){
+        .nav-link{text-align: center;}
+    }
+    
+    nav {
+        font-family: sans-serif;
+        padding: 0.5% 10%;  
+        font-size: 18px;
+    }
+
+    .body {
+        background-image: linear-gradient(to right,#4cd1d1, #ffb88c);
+    
+    }
+    
+/* Card */
+
+    
+
+   .container  h1{
+        text-align: center;
+        font-weight : bold ;
+        font-size: 50px;
+        color: rgb(0, 0, 0);
+    }
+
+    .card-title {
+        font-weight : bolder
+    }
+
+    .row iframe {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav img {
+    width: 160px;  
+}
+
+/* Comment */
+
+
+label {
+    color: rgb(255, 255, 255)
+}
+
+
+form {
+    background-color: rgba(16, 46, 46, 0.973);
+    border-radius: 30px;
+    padding: 30px
+}
+
+.card-img {
+    width: auto;  height: auto;
+}
+
+.col-6 ul li{
+    background-color: rgba(16, 46, 46, 0.973);
+    
+}
+
+.fw-bold {
+    color: rgb(255, 255, 255);
+}
+
+.ms-2 {
+    color: #ffffff;
+}
+
+
+/* Footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
