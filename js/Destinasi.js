@@ -25,8 +25,6 @@ const elBtnComment = document.querySelector('#btn-comment');
             removeNone.classList.add("d-none");
             addNone.classList.remove("d-none");
 
-            var Username = elInputUsername.value = "";
-            var Comment = elInputComment.value = "";
       }
       
       function submitComment(){
@@ -34,6 +32,8 @@ const elBtnComment = document.querySelector('#btn-comment');
 
             var Username = elInputUsername.value;
             var Comment = elInputComment.value;
+            sessionStorage.setItem ("Username", Username)
+            sessionStorage.setItem ("Comment", Comment)
             
             alert("Terima Kasih Sudah Berkomentar : " + Username);
 
@@ -63,3 +63,9 @@ const elBtnComment = document.querySelector('#btn-comment');
             var Comment = elInputComment.value = "";
             
         }
+
+        let btn = document.querySelector("#elBtnSubmit")
+        btn.onclick = saveComment 
+        function saveComment(){
+          }
+        saveComment()
