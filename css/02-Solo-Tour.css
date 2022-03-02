@@ -35,6 +35,7 @@ body, html {
 	font-family: 'Poppins', sans-serif;
 	color: #222;
     text-transform: capitalize;
+    background-image: linear-gradient(to right,#4cd1d1, #ffb88c);
 }
 
 /* Title */
