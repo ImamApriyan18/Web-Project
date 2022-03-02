@@ -1,0 +1,105 @@
+@import url("http://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body {
+  background-color: rgb(95, 150, 150);
+  margin: 0;
+  min-height: 100vh;
+  padding: 15px 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.col-12 {
+  text-align: justify;
+}
+
+.container-sm {
+  margin-top: 35px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+/* .row {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+.container .title {
+  flex-basis: 100%;
+  max-width: 100%;
+  margin-bottom: 10%;
+  margin-top: 20%;
+}
+
+.container .title h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  color: antiquewhite;
+  font-weight: 700;
+}
+
+.container .team-teams {
+  flex-basis: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 10%;
+}
+.container .team-teams .item {
+  flex-basis: calc(25% - 30px);
+  max-width: calc(25% - 30px);
+  transition: all 0.5s ease;
+}
+.container .team-teams .item .inner {
+  position: relative;
+  z-index: 11;
+  padding: 0 15px;
+}
+
+.container .team-teams .item .inner .info {
+  background-color: rgb(95, 150, 150);
+  text-align: center;
+  padding: 20px 15px;
+  border-radius: 8px;
+  transition: all 0.5s ease;
+  margin-top: -40px;
+}
+.container .team-teams .item:hover .inner .info {
+  transform: translateY(-20px);
+}
+.container .team-teams .item:hover {
+  transform: translateY(-10px);
+}
+
+.container .team-teams .item .inner .info h5 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: aliceblue;
+}
+.container .team-teams .item .inner .info p {
+  padding-top: 10px;
+}
+.container .team-teams .item .inner .info .social-links {
+  padding: 0 5px;
+}
+
+/* responsive */
+@media (max-width: 900px) {
+  .container .team-teams .item {
+    flex-basis: calc(50% - 30px);
+    max-width: calc(50% - 30px);
+  }
+  .row-team {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+}
