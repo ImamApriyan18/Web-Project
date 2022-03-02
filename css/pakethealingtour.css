@@ -88,3 +88,18 @@ body, html {
 	transform: translateY(-80%);
 	text-shadow: 1px 1px 10px #000;
 }
+
+.gb-container-20099ae6 > .gb-inside-container {
+    padding: 30px 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    text-align: left;
+    
+    font-family: 'Poppins', sans-serif;
+	color: rgb(0, 0, 0);
+    font-size: 20px;
+}
