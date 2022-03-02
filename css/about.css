@@ -1,6 +1,36 @@
 @import url("http://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
+
+
+*{margin: 0;padding: 0;
+  box-sizing: border-box;}
+  
+  .header {width: 100%;
+      background-image: rgb(95, 150, 150);
+  }
+  .container-fluid img {
+    width: 200px;
+  }
+
+  .navbar-brand {color: rgb(0, 0, 0) !important;
+  }
+
+  .nav-link {color: rgb(0, 0, 0) !important;}
+
+  .nav-link:hover {color: #ffffff !important;}
+
+  @media (max-width:668px){
+      .nav-link{text-align: center;}
+  }
+  
+  nav {
+      font-family: sans-serif;
+      padding: 0.5% 10%;  
+      font-size: 18px;
+  }
+
+
 body {
   background-color: rgb(95, 150, 150);
   margin: 0;
@@ -23,6 +53,10 @@ body {
 .container {
   max-width: 1170px;
   margin: auto;
+}
+
+#about {
+  padding-top: 100px;
 }
 
 /* .row {
