@@ -47,6 +47,10 @@ body, html {
     font-weight: 600;
 }
 
+.bg-light {
+    background-image: linear-gradient(to right,#4cd1d1, #ffb88c);
+}
+
 .card-title{
     text-align: center;
     text-transform: capitalize;

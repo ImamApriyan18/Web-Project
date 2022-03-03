@@ -158,8 +158,10 @@ section {
     position: relative;
 }
 #imam {
-display: flex;
+/* display: flex; */
 justify-content: space-between;
+width: 80%;
+
 }
 #eka {
 padding-top: 50px;
@@ -167,11 +169,11 @@ padding-top: 50px;
 #eka h2 {
 color: white;
 padding-top: 20px;
-padding-left: 60px;
+padding-left: 30px;
 }
 #eka p {
 color: antiquewhite;
-padding-left: 60px;
+padding-left: 30px;
 }
 
 
@@ -180,13 +182,13 @@ display: flex;
 justify-content: end;
 padding-top: 15%;
 color: white;
-padding-right: 40px;
+padding-right: 0px;
 }
 #apriyan .icon {
 display: flex;
 justify-content: end;
 color: white;
-padding-right: 33px;
+padding-right: 03px;
 }
 
 #apriyan .icon .fa{
@@ -222,7 +224,7 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
 
 #eka a img {
 width: 190px;
-padding-left: 50px;
+padding-left: 30px;
 }
 
 #dom::after {
@@ -423,11 +425,11 @@ padding-top: 3px;
     #eka h2 {
     color: white;
     padding-top: 20px;
-    padding-left: 60px;
+    padding-left: 30px;
     }
     #eka p {
     color: antiquewhite;
-    padding-left: 60px;
+    padding-left: 30px;
     }
 
 
@@ -436,12 +438,13 @@ padding-top: 3px;
     justify-content: end;
     padding-top: 15%;
     color: white;
-    padding-right: 40px;
+    padding-right: 0px;
     }
     #apriyan .icon {
     display: flex;
     justify-content: end;
     color: white;
+    padding-right: 0px;
     }
 
 
@@ -476,7 +479,7 @@ padding-top: 3px;
 
     #eka a img {
     width: 190px;
-    padding-left: 50px;
+    padding-left: 30px;
     }
 
     #dom::after {

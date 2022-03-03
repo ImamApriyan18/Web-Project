@@ -33,6 +33,10 @@
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
 }
 
+.bg-light {
+    background-image: linear-gradient(to right,#4cd1d1, #ffb88c);
+}
+
 /* efek blur pada background */
 .container {
     backdrop-filter: blur(3px);
