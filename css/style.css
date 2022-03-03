@@ -81,7 +81,7 @@ section {
 }
 
 .content > h1 {
-    color:  rgb(3, 7, 70);
+    color:  rgb(232, 233, 240);
     font-weight: 200;
     font-size: 50px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
@@ -337,8 +337,8 @@ padding-top: 3px;
     }
     
     .content > h1 {
-        color:  rgb(3, 7, 70);
-        font-weight: 200;
+        color:  rgb(232, 233, 240);
+        font-weight: 500;
         font-size: 50px;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
     }
